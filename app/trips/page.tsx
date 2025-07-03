@@ -43,7 +43,7 @@ async function TripsPage() {
       </div>
       <Card>
         <CardHeader>
-          <CardTitle>Welcome back, {session.user?.name} </CardTitle>
+          <CardTitle className="text-2xl" >Welcome back, {session.user?.name} </CardTitle>
         </CardHeader>
         <CardContent>
           <p>

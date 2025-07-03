@@ -16,7 +16,7 @@ function Navbar({ session }: { session: Session | null }) {
         <span className="text-2xl font-bold text-gray-800  " >TerraQuest</span>
         </Link>
 
-        <div className="flex items-center space-x-4" >
+        <div className="flex items-center space-x-4 font-medium " >
           { session ? (
             <>
             <Link href="/trips" className="text-slate-900 hover:text-sky-500" >My Trips</Link>
